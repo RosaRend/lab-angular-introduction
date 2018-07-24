@@ -1,0 +1,8 @@
+div {
+  display: flex;
+  justify-content: center;
+  background-clip: padding-box;
+  /* border: 5px solid rgba(0, 0, 0, 0.9); */
+  padding: 0px;
+
+}

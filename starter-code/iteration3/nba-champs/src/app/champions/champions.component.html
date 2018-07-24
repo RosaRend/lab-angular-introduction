@@ -1,0 +1,18 @@
+<p>
+  champions works!
+</p>
+<div *ngFor="let champ of scoreBoard">
+
+  <h2>{{champ.year}}</h2>
+
+  <h3>{{champ.champion}}</h3>
+
+  <img src="{{champ.championUrl}}" alt="">
+
+<h4>Best Players</h4>
+  <ul>
+    <li *ngFor="let player of champ.bestPlayers">
+      {{player}}
+    </li>
+  </ul>
+</div>
